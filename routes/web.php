@@ -58,5 +58,4 @@ Route::get('/select2', 'PostController@select2');
 //Route::get('/sendEmail', 'SendEmailController@sendEmail');
 Route::get('/ip', 'SendEmailController@ip');
 //以下路由是测试路由
-Route::get("/SummaryLink", ['as' => 'SummaryLink', 'uses' => 'FeedbackController@SummaryLink']); // SummaryLink的 模拟
 
